@@ -1,62 +1,45 @@
-<!DOCTYPE html>
-<html>
-    <!---------------head tag --------------->
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <!---------------body tag--------------->
-    <body>
-        <div class="login">
-            <h1>Registration Form</h1>
-            <form>
-            <!---------------name --------------->
-                <label for="name"> First Name</label>
-                <input type="name" placeholder="First Name"><br/><br/>
-            <!---------------surname --------------->
-                <label for="surname"> Last Name</label>
-                <input type="name" placeholder="First Name"><br/><br/>
-            <!---------------email--------------->
-                <label for="email"> Email Address</label>
-                <input type="email" placeholder="Enter your email address"><br/><br/>
-            <!---------------gender --------------->
-                <label for="Gender"> Gender</label>
-                <select>
-                    <option>Gender</option>
-                    <option>Female</option>
-                    <option>Male</option>
-                    <option>Other</option>
-                </select> <br/><br/>
-            <!---------------phone number --------------->
-                <label for="number"> Phone Number</label>
-                <input type="number" placeholder="Phone Number"><br/><br/>
-            <!---------------street --------------->
-                <label for="street"> Street</label>
-                <input type="text" id = "street" placeholder="123 Main Street"><br/><br/>
-            <!---------------city--------------->
-                <label for="city"> City</label>
-                <input type="text" id = "city" placeholder="City"><br/><br/>
-            <!---------------province --------------->
-                <label for="state"> State/Province</label>
-                <select>
-                    <option>Province</option>
-                    <option>Eastern Cape</option>
-                    <option>Free State</option>
-                    <option>Gauteng</option>
-                    <option>KwaZulu-Natal</option>
-                    <option>Limpopo</option>
-                    <option>Mpumalanga</option>
-                    <option>Northern Cape</option>
-                    <option>North West</option>
-                    <option>Western Cape</option>
-                </select> <br/><br/>
-            <!---------------postal code--------------->
-                <label for="zip"> Zip/Postal Code</label>
-                <input type="text" id = "zip" placeholder="Postal Code"><br/><br/>
-            <!---------------submission button--------------->
-                <button type="submit"> Submit</button>
+<head>
 
-            </form>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action=" ">
+                <!----------------------------------->
+                    <h2>Log in</h2>
+                <!----------------------------------->
+                    <div class="input-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for=""> Email</label>
+                    </div>
+                <!----------------------------------->
+                    <div class="input-box">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for=""> Password</label>
+                    </div>
+                <!----------------------------------->
+                    <div class="forget">
+                        <label for=""><input type="checkbox"> Remember Me 
+                        <a href="#"> Forget Password</a>
+                        </label> 
+                    </div>
+                <!----------------------------------->
+                    <button>Log in</button>
+                    <div class="register">
+                        <p>Create a New Account? <a href="home.html"> Register</a></p>
+                    </div>
+                </form>
+
+            </div>
 
         </div>
-    </body>
+    </section>
+
+
+
+</body>
 </html>
+    
